@@ -1,6 +1,7 @@
 {
   "orders": [
     {
+      "id": 1,
       "order_number": 572490,
       "customer_name": "John Doe",
       "product_name": "Apple",
@@ -8,6 +9,7 @@
       "date": "2022-01-01"
     },
     {
+      "id": 2,
       "order_number": 839210,
       "customer_name": "Jane Smith",
       "product_name": "Banana",
@@ -15,6 +17,7 @@
       "date": "2022-01-02"
     },
     {
+      "id": 3,
       "order_number": 129840,
       "customer_name": "Mike Johnson",
       "product_name": "Orange",
@@ -22,6 +25,7 @@
       "date": "2022-01-03"
     },
     {
+      "id": 4,
       "order_number": 732189,
       "customer_name": "Emily Brown",
       "product_name": "Grapes",
@@ -29,6 +33,7 @@
       "date": "2022-01-04"
     },
     {
+      "id": 5,
       "order_number": 451028,
       "customer_name": "David Lee",
       "product_name": "Pineapple",
@@ -36,6 +41,7 @@
       "date": "2022-01-05"
     },
     {
+      "id": 6,
       "order_number": 621490,
       "customer_name": "Sarah Johnson",
       "product_name": "Mango",
@@ -43,6 +49,7 @@
       "date": "2022-01-06"
     },
     {
+      "id": 7,
       "order_number": 318724,
       "customer_name": "Michael Smith",
       "product_name": "Watermelon",
@@ -50,6 +57,7 @@
       "date": "2022-01-07"
     },
     {
+      "id": 8,
       "order_number": 978231,
       "customer_name": "Jennifer Davis",
       "product_name": "Cherry",
@@ -57,6 +65,7 @@
       "date": "2022-01-08"
     },
     {
+      "id": 9,
       "order_number": 517362,
       "customer_name": "Chris Wilson",
       "product_name": "Strawberry",
@@ -64,6 +73,7 @@
       "date": "2022-01-09"
     },
     {
+      "id": 10,
       "order_number": 248193,
       "customer_name": "Lisa Johnson",
       "product_name": "Blueberry",

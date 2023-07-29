@@ -43,7 +43,7 @@ const Side = ({ menu }: MenuProps) => {
               </Link>
             </li>
             <li>
-              <Link to="/" className="side_nav_link">
+              <Link to="/orders" className="side_nav_link">
                 <BsHandbag className="side_icon" />
                 <span className="flex-1 ml-3 whitespace-nowrap">Products</span>
               </Link>

@@ -15,6 +15,20 @@ const TbData = ({
   selectedOrders,
   setVisible,
 }: Props) => {
+  // const getId = () => {
+  //   orders.map((order: any) => {
+  //     return order.id;
+  //   });
+  // };
+
+  const handleClick = () => {
+    setVisible(true);
+    // console.log(id);
+
+    // getId();
+
+    console.log("clicked");
+  };
   return (
     <DataTable
       value={orders}
@@ -26,13 +40,13 @@ const TbData = ({
       ]}
       header={header}
       emptyMessage="No orders found."
-      dataKey="order_number"
+      dataKey="id"
       rows={10}
       filters={filters}
       tableStyle={{ minWidth: "100%", zIndex: -1 }}
       selection={selectedOrders!}
       // responsiveLayout="scroll"
-      onRowClick={() => setVisible(true)}
+      onRowClick={() => handleClick()}
     >
       <Column selectionMode="multiple" headerStyle={{ width: "3rem" }} />
       <Column

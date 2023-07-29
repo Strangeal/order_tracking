@@ -9,13 +9,13 @@ type PopUpProps = {
 const PopUp = ({ visible, setVisible }: PopUpProps) => {
   return (
     <div className="card flex justify-content-center">
-      <Button
+      {/* <Button
         label="Show"
         icon="pi pi-external-link"
         onClick={() => setVisible(true)}
       >
         {" "}
-      </Button>
+      </Button> */}
       <Dialog
         header="Header"
         visible={visible}
