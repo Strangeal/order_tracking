@@ -6,16 +6,6 @@ import { Outlet, useParams } from "react-router-dom";
 type Props = {};
 
 const Dashboard = (props: Props) => {
-  const { order } = useAppSelector((state) => state.orderId);
-  const dispatch = useAppDispatch();
-  console.log(order);
-  // console.log(id);
-
-  // useEffect(() => {
-  //   if (order.id) {
-  //     dispatch(fetchOrdersById({ orderId: 1 }));
-  //   }
-  // }, [dispatch, order.id]);
   return (
     <>
       <Top />

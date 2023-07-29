@@ -13,5 +13,9 @@
   .product_column {
     @apply hidden lg:flex;
   }
+
+  .dialog_card {
+    @apply max-w-[90vw] w-[640px];
+  }
   
 
