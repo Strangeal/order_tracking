@@ -5,7 +5,10 @@ import "./index.css";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store.tsx";
-import Dashboard from "./pages/dashboard.tsx";
+import Dashboard from "./pages/Dashboard.tsx";
+import Orders from "./pages/Orders.tsx";
+import "primereact/resources/themes/lara-light-indigo/theme.css"; // theme
+import "primereact/resources/primereact.css"; // core css
 
 const router = createBrowserRouter([
   {
@@ -13,9 +16,16 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        index: true,
+        // index: true,
         path: "/",
         element: <Dashboard />,
+        children: [
+          {
+            // index: true,
+            path: "/orders",
+            element: <Orders />,
+          },
+        ],
       },
     ],
   },
